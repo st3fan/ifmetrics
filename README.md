@@ -1,10 +1,10 @@
 # Interface Metrics
-__Stefan Arentz, February 2021__
+_Stefan Arentz, February 2021_
 
 This program collects minimal metrics for an interface and then submits it to InfluxDB.
 
 
-## Compile to run on the Asus RT-AC68
+## Compile to run on the Asus RT-AC68U
 
 ```
 GOOS=linux GOARCH=arm GOARM=5 go build
