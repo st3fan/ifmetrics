@@ -25,5 +25,7 @@ export INTERVAL=15
 ./ifmetrics
 ```
 
-> TODO Figure out how to permanently run a program like this on the RT-AC68U.
+## Running it as a daemon
+
+I am using Merlin on my Asus RT-AC68U which lets me run this in a `tmux` session. I'd love to turn this into a `.opkg` though, so that you can install and run it more easily as a daemon.
 
